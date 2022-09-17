@@ -24,6 +24,10 @@ function Navbar() {
         console.log("test")
     }
 
+    const handletest2 = () => {
+        console.log("test2")
+    }
+
     return (
         <section className="navbar">
             <header className="mainnav-wrapper">
