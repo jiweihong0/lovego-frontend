@@ -19,14 +19,6 @@ function Navbar() {
     const handleShopCarButtonClick = () => {
         setisshopcar(!isshopcar)
     }
-    
-    const handletest = () => {
-        console.log("test")
-    }
-
-    const handletest2 = () => {
-        console.log("test2")
-    }
 
     return (
         <section className="navbar">
