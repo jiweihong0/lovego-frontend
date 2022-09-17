@@ -19,6 +19,10 @@ function Navbar() {
     const handleShopCarButtonClick = () => {
         setisshopcar(!isshopcar)
     }
+    
+    const handletest = () => {
+        console.log("test")
+    }
 
     return (
         <section className="navbar">
@@ -27,7 +31,7 @@ function Navbar() {
                     <button>
                         <img src={logo} alt="logo" />
                     </button>
-                    <span>海軍樂購生活館Love Go</span>
+                    <span>海軍樂購生活館Love Back</span>
                 </div>
                 <div className="mainnav-right-block">
                     <button id="btn-mainnav-menu" onClick={handleMenuExpand}>
