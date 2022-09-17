@@ -1,0 +1,14 @@
+.marquee-block{
+    width: 100%;
+    background-color: #E2A77C;
+    word-break:keep-all;
+}
+
+@keyframes scroll{
+    from{transform: translateX(100%)}
+    to{transform: translateX(-100%)}
+}
+
+.marquee-block span{
+    animation: scroll 40s linear infinite;
+}
