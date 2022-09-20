@@ -77,8 +77,6 @@ function Navbar() {
                                     </div>
                                 </div>
                             }
-
-
                         </div>
                         <div className="notice-section">
                             <button className="btn-right-section btn-notice">
