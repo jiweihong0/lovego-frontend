@@ -19,10 +19,10 @@ button {
 
 section.template{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: absolute;
     top: 160px;
-
     width: 100%;
 }
 
@@ -34,6 +34,7 @@ div.round-section{
     position: relative;
     display: block;
     padding: 1rem 0;
+    margin: 0.5rem 0;
     width: 98%;
     background-color: white;
     border-radius: 5px;
