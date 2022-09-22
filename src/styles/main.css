@@ -1,10 +1,14 @@
-body {
+* , *::before , *::after{
     padding: 0;
     margin: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+body{
     min-width: 450px;
+    background-color: #EFEFEF;
 }
 
 button {
@@ -14,7 +18,27 @@ button {
 }
 
 section.template{
+    display: flex;
+    justify-content: center;
     position: absolute;
-    width: 100%;
     top: 160px;
+
+    width: 100%;
+}
+
+section.template.mainpage{
+    top: 220px;
+}
+
+div.round-section{
+    position: relative;
+    display: block;
+    padding: 1rem 0;
+    width: 98%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+section.gap-top{
+    margin-top: 50px;
 }

@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import logo from "../../logo.png"
-import mainmenu from "../../main-menu.png"
-import magnifying from "../../magnifying.svg"
-import shopcar from "../../shopcar.svg"
-import product from "../../product.png"
-import bell from "../../bell.svg"
-import logout from "../../logout.svg"
+import logo from "../../imgs/logo.png"
+import mainmenu from "../../imgs/main-menu.png"
+import magnifying from "../../imgs/magnifying.svg"
+import shopcar from "../../imgs/shopcar.svg"
+import product from "../../imgs/product.png"
+import bell from "../../imgs/bell.svg"
+import logout from "../../imgs/logout.svg"
 
 function Navbar() {
 
@@ -27,7 +27,7 @@ function Navbar() {
                     <button>
                         <img src={logo} alt="logo" />
                     </button>
-                    <span>海軍樂購生活館Love Back</span>
+                    <span>海軍樂購生活館Love Go</span>
                 </div>
                 <div className="mainnav-right-block">
                     <button id="btn-mainnav-menu" onClick={handleMenuExpand}>

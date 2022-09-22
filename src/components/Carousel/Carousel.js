@@ -1,66 +1,32 @@
 function Carousel() {
+
+    const handleSwtichCarousel = e => {
+        const offset = e.target.classList[1] === "next" ? 1 : -1
+        const slides = document.querySelector(".carousel > ul")
+        const activeSlide = slides.querySelector("[data-active]")
+        let newIndex = [...slides.childNodes].indexOf(activeSlide) + offset
+        if (newIndex < 0) newIndex = slides.children.length - 1
+        if (newIndex >= slides.childNodes.length) newIndex = 0
+        slides.children[newIndex].dataset.active = true
+        delete activeSlide.dataset.active  
+    }
+
     return (
-        <section className="carousel-container">
-            <div className="carousel" aria-label="Gallery">
-                <ol className="carousel__viewport">
-                    <li id="carousel__slide1"
-                        tabindex="0"
-                        className="carousel__slide">
-                        <div className="carousel__snapper">
-                            <a href="#carousel__slide4"
-                                className="carousel__prev">Go to last slide</a>
-                            <a href="#carousel__slide2"
-                                className="carousel__next">Go to next slide</a>
-                        </div>
+        <section className="carousel-section">
+            <div className="carousel">
+                <button className="carousel-btn prev" onClick={handleSwtichCarousel}>&#171;</button>
+                <button className="carousel-btn next" onClick={handleSwtichCarousel}>&#187;</button>
+                <ul>
+                    <li className="slide" data-active>
+                        <img src="https://picsum.photos/seed/picsum/1150/300" alt="Image alt here" />
                     </li>
-                    <li id="carousel__slide2"
-                        tabindex="0"
-                        className="carousel__slide">
-                        <div className="carousel__snapper"></div>
-                        <a href="#carousel__slide1"
-                            className="carousel__prev">Go to previous slide</a>
-                        <a href="#carousel__slide3"
-                            className="carousel__next">Go to next slide</a>
+                    <li className="slide">
+                        <img src="https://picsum.photos/seed/hi/1150/300" alt="Image alt here" />
                     </li>
-                    <li id="carousel__slide3"
-                        tabindex="0"
-                        className="carousel__slide">
-                        <div className="carousel__snapper"></div>
-                        <a href="#carousel__slide2"
-                            className="carousel__prev">Go to previous slide</a>
-                        <a href="#carousel__slide4"
-                            className="carousel__next">Go to next slide</a>
+                    <li className="slide">
+                        <img src="https://picsum.photos/seed/bye/1150/300" alt="Image alt here" />
                     </li>
-                    <li id="carousel__slide4"
-                        tabindex="0"
-                        className="carousel__slide">
-                        <div className="carousel__snapper"></div>
-                        <a href="#carousel__slide3"
-                            className="carousel__prev">Go to previous slide</a>
-                        <a href="#carousel__slide1"
-                            className="carousel__next">Go to first slide</a>
-                    </li>
-                </ol>
-                <aside className="carousel__navigation">
-                    <ol className="carousel__navigation-list">
-                        <li className="carousel__navigation-item">
-                            <a href="#carousel__slide1"
-                                className="carousel__navigation-button">Go to slide 1</a>
-                        </li>
-                        <li className="carousel__navigation-item">
-                            <a href="#carousel__slide2"
-                                className="carousel__navigation-button">Go to slide 2</a>
-                        </li>
-                        <li className="carousel__navigation-item">
-                            <a href="#carousel__slide3"
-                                className="carousel__navigation-button">Go to slide 3</a>
-                        </li>
-                        <li className="carousel__navigation-item">
-                            <a href="#carousel__slide4"
-                                className="carousel__navigation-button">Go to slide 4</a>
-                        </li>
-                    </ol>
-                </aside>
+                </ul>
             </div>
         </section>
     );
