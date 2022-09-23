@@ -15,6 +15,7 @@ function App() {
         </div>
         <div className="round-section">
           <ListCard />
+          <ListCard />
         </div>
       </section>
     </>
