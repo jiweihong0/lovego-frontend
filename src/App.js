@@ -3,6 +3,7 @@ import Marquee from './components/marquee/Marquee';
 import Carousel from './components/Carousel/Carousel';
 import CardList from './components/Card/cardList';
 import ListCard from './components/Listcard/ListCard';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
@@ -17,7 +18,9 @@ function App() {
           <ListCard />
           <ListCard />
         </div>
+        <Footer/>
       </section>
+      
     </>
   );
 }

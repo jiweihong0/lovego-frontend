@@ -1,0 +1,28 @@
+/* footer */
+
+/* Auto layout */
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 40px;
+    
+    width: 1440px;
+    height: 325px;
+    
+    background: #0B346E;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 150px;
+
+    width: 1364px;
+    height: 260px;
+
+    background: #0B346E;
+}
