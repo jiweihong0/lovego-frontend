@@ -4,6 +4,7 @@ import Carousel from './components/Carousel/Carousel';
 import CardList from './components/Card/cardList';
 import ListCard from './components/Listcard/ListCard';
 import Footer from './components/Footer/Footer';
+import Popular from './components/Popular/Popular';
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
           <ListCard />
           <ListCard />
         </div>
+        <Popular/>
         <Footer/>
       </section>
       
