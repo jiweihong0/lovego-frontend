@@ -19,10 +19,11 @@ function App() {
           <ListCard />
           <ListCard />
         </div>
-        <Popular/>
-        <Footer/>
+        <div className="round-section">
+          <Popular />
+        </div>
+        <Footer />
       </section>
-      
     </>
   );
 }
