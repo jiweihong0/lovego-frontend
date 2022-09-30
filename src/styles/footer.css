@@ -1,0 +1,140 @@
+
+/* Auto layout */
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 40px;
+    
+    width: 100%;
+    min-height: 325px;
+    
+    background: #0B346E;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 150px;
+    width: 100%;
+    height: 260px;
+}
+
+.footer-frameleft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    width: 210px;
+    height: 260px;
+}
+.footer-framemiddle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    
+    width: 210px;
+    height: 260px;
+}
+.footer-frameright {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    
+    width: 210px;
+    height: 260px;
+}
+
+.footer-textleft {
+    width: 97px;
+    height: 34px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 143%;
+    /* or 34px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15px;
+
+    color: #FFFFFF;
+}
+.footer-textmiddle {
+    width: 97px;
+    height: 34px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 143%;
+    /* or 34px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15px;
+
+    color: #FFFFFF;
+
+}
+.footer-textright {
+    width: 97px;
+    height: 34px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 143%;
+    /* or 34px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15px;
+
+    color: #FFFFFF;
+}
+
+.footer-framebuttom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+    height: 56px;
+}
+
+/* copyright */
+.footer-copyright {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 143%;
+    /* identical to box height, or 29px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15px;
+
+    color: #FFFFFF;
+
+}
+
+
+
+

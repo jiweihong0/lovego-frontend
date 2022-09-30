@@ -1,13 +1,28 @@
-import Navbar  from "./components/navbar/Navbar";
-import "./index.css";
+import Navbar from "./components/navbar/Navbar";
+import Marquee from './components/marquee/Marquee';
+import Carousel from './components/Carousel/Carousel';
+import CardList from './components/Card/cardList';
+import ListCard from './components/Listcard/ListCard';
+import Footer from './components/Footer/Footer';
+import Popular from './components/Popular/Popular';
 function App() {
   return (
     <>
       <Navbar />
-      <section className="template">
-        <div className="marquee-block">
-          <span>我是跑馬燈我是跑馬燈我是跑馬燈我是跑馬燈我是跑馬燈我是跑馬燈我是跑馬燈我是跑馬燈我是跑馬燈我是跑馬燈</span>
+      <Marquee />
+      <section className="template mainpage">
+        <div className="round-section">
+          <Carousel />
+          <CardList />
         </div>
+        <div className="round-section">
+          <ListCard />
+          <ListCard />
+        </div>
+        <div className="round-section">
+          <Popular />
+        </div>
+        <Footer />
       </section>
     </>
   );
