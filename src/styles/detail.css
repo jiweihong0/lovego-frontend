@@ -1,0 +1,112 @@
+/* 商品敘述 */
+
+/* Auto layout */
+.Detail-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 10px 8px;
+    gap: 10px;
+
+    min-width: 450px;
+    width: 100%;
+    height: 1800px;
+    background: #FFFFFF;
+}
+
+
+.Detail-frametop{
+    position: absolute;
+    width: 457px;
+    height: 95px;
+    left: 27px;
+    top: 800px;
+    border-radius:3px; 
+    background: #3E6092;
+    font-size: 44px;
+    padding: 15px 15px 30px 50px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+
+}
+/* 底 */
+.Detail-textframe{
+    position: absolute;
+    width: 1300px;
+    height: 430px;
+    left: 80px;
+    top: 850px;
+
+    background:50% #d3d3d3;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    font-size: 36px;
+    color: #000000;
+}
+.Detail-frametop2{
+    position: absolute;
+    width: 457px;
+    height: 95px;
+    left: 27px;
+    top: 1400px;
+    border-radius:3px;
+
+    background: #3E6092;
+    font-size: 44px;
+    padding: 15px 15px 30px 50px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+
+}
+/* 底 */
+.Detail-textframe2{
+    position: absolute;
+    width: 1300px;
+    height: 430px;
+    left: 80px;
+    top: 1450px;
+
+    background:50% #d3d3d3;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    font-size: 36px;
+    color: #000000;
+}
+.Detail-frametop3{
+    position: absolute;
+    width: 457px;
+    height: 95px;
+    left: 27px;
+    border-radius:3px;
+    top: 2000px;
+
+    background: #3E6092;
+    font-size: 44px;
+    padding: 15px 15px 30px 50px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+
+}
+/* 底 */
+.Detail-textframe3{
+    position: absolute;
+    width: 1300px;
+    height: 430px;
+    left: 80px;
+    top: 2050px;
+
+    background:50% #d3d3d3;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    font-size: 36px;
+    color: #000000;
+}
+.Detail-text{
+    padding: 200px 100px 200px 150px;
+}
+
+
+
