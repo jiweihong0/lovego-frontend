@@ -1,11 +1,12 @@
 
 import img_prod from "../../imgs/product.png";
+import Carousel from "../Carousel/Carousel";
 function Content() {
     return (
         <>
             <div className="content-product">
                 <div className="content-photo">
-                    <img src={img_prod} alt="Image alt here" />
+                    <Carousel />
                 </div>
                 <div className="content-frame">
                     <span className="content-title">活力烏雞湯</span>
