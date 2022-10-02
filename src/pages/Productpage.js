@@ -5,15 +5,17 @@ import Content from '../components/Content/Content';
 import Detail from "../components/Content/Detail";
 
 function Productpage() {
-    return ( 
-        <div>
-            <Navbar/>
-            <Content/>
-            <Detail/>
-            <Popular/>
-            <Footer/>
-        </div>
-     );
+    return (
+        <>
+            <Navbar />
+            <section className="template">
+                <Content />
+                <Detail />
+                <Popular />
+                <Footer />
+            </section>
+        </>
+    );
 }
 
 export default Productpage;

@@ -2,7 +2,7 @@
 import img_prod from "../../imgs/product.png";
 function Content() {
     return (
-        <section className="template">
+        <>
             <div className="content-product">
                 <div className="content-photo">
                     <img src={img_prod} alt="Image alt here" />
@@ -35,7 +35,7 @@ function Content() {
                 <p>運送方式:全家冷凍取貨 / 全家冷凍取貨付款</p>
             </div>
 
-        </section>
+        </>
     );
 }
 
