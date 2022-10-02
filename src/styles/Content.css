@@ -1,23 +1,24 @@
 /* 商品圖 */
 
 
-.Content-photo{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+.content-photo{
     padding: 0px;
     gap: 10px;
 
-    width: 537px;
-    height: 500px;
+    min-width: 537px;
+    height: 100%;
     overflow: hidden;
     background: #FFFFFF;
     border: 1px solid #000000;
 }
 
+.content-photo > img{
+    height: 100%;
+}
+
 
 /* 文字敘述 */
-.Content-product{
+.content-product{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,7 +26,7 @@
     padding: 39px 48px 40px 50px;
     gap: 81px;
 
-    min-width: 450px;
+    min-width: 1000px;
     width: 100%;
     height: 510px;
 
@@ -35,15 +36,15 @@
 }
 
 /* Auto layout */
-.Content-frame{
+.content-frame{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px 10px 10px 30px;
     gap: 6px;
 
-    width: 681px;
-    height: 367px;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -51,7 +52,7 @@
 
 
 /* 商品名稱 */
-.Content-title{
+.content-title{
     width: 201px;
     height: 54px;
 
@@ -69,7 +70,7 @@
 
 /* 簡述 */
 
-.Content-text{
+.content-text{
     width: 224px;
     height: 20px;
 
@@ -85,7 +86,7 @@
 }
 
 /* 價格 */
-.Content-cost{
+.content-cost{
     width: 103px;
     height: 38px;
 
@@ -104,18 +105,17 @@
 
 
 /* 款式 */
-.Content-typelist{
+.content-typelist{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    padding: 0px 87px;
     gap: 50px;
 
-    width: 624px;
-    height: 40px;
+    width: 100%;
+    height: auto;
 }
-.Content-frametype{
+.content-frametype{
     
     display: flex;
     flex-direction: row;
@@ -129,13 +129,13 @@
     border: 1px solid #3269AA;
     border-radius: 5px;
 }
-.Content-frametype:hover{
+.content-frametype:hover{
     
     background: #3269AA;
     border: 1px solid #FFFFFF;
     border-radius: 5px;
 }
-.Content-type{
+.content-type{
     width: 100px;
     height: 40px;
     padding:1.5px 15px;
@@ -145,10 +145,10 @@
     font-size: 25px;
     color: #3269AA; 
 }
-.Content-type:hover{
+.content-type:hover{
     color: #FFFFFF; 
 }
-.Content-framecount{
+.content-framecount{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -159,7 +159,7 @@
     height: 98px;
 
 }
-.Content-minus{
+.content-minus{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,7 +176,7 @@
 
 
 /* 數量 */
-.Content-count{
+.content-count{
     font-size: 25px;
     display: flex;
     flex-direction: row;
@@ -191,14 +191,14 @@
     border: 1px solid rgba(0, 0, 0, 0.6);
     border-radius: 5px;  
 }
-.Content-minus:hover{
+.content-minus:hover{
     color: #FFFFFF;
     background: #3269AA;
 }
 
 
 /* button */
-.Content-framecar{
+.content-framecar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -206,11 +206,11 @@
     padding: 48px 73px 16px 203px;
     gap: 10px;
 
-    width: 639px;
-    height: 93px;
+    width: 100%;
+    height: auto;
 }
 
-.Content-car{
+.content-car{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -226,7 +226,7 @@
     font-size: 16px;
 }
 
-.Content-buy{
+.content-buy{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -241,7 +241,7 @@
     font-size: 16px;
     color: #FFFFFF;
 }
-.Content-notice{
+.content-notice{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
