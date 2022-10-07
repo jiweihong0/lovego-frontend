@@ -1,6 +1,7 @@
 import { Routes , Route } from 'react-router-dom'
 import Mainpage from './pages/Mainpage';
 import Productpage from './pages/Productpage';
+import "@fontsource/open-sans";
 
 function App() {
   return (

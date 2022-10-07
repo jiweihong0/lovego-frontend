@@ -13,7 +13,9 @@ function Mainpage() {
       <Marquee />
       <section className="template mainpage">
         <div className="round-section">
-          <Carousel />
+          <div className="mainpage-carousel">
+            <Carousel />
+          </div>
           <CardList />
         </div>
         <div className="round-section">

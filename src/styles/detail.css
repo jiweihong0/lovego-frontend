@@ -1,0 +1,72 @@
+/* 商品敘述 */
+
+/* Auto layout */
+.detail-frame{
+    display: flex;
+    position: block;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 8px;
+    gap: 10px;
+
+    min-width: 450px;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+}
+
+.detail-container{
+    position: block;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 100px;
+}
+
+.detail-block{
+    position: relative;
+    height: auto;
+}
+
+
+.detail-frametop{
+    position: absolute;
+    width: 457px;
+    height: 95px;
+    left: 27px;
+    top: -25px;
+    border-radius:3px; 
+    background: #3E6092;
+    font-size: 44px;
+    padding: 15px 15px 30px 50px;
+    font-weight: bold;
+
+    z-index: 2;
+    color: #FFFFFF;
+}
+
+/* 底 */
+.detail-textframe{
+    position: relative;
+    width: 90%;
+    height: 430px;
+    left: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:50% #d3d3d3;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    font-size: 36px;
+    color: #000000;
+}
+
+.detail-text{
+    padding: 0 100px;
+}
+
+
+

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useNavigate } from "react-router-dom";
 import logo from "../../imgs/logo.png"
 import mainmenu from "../../imgs/main-menu.png"
 import magnifying from "../../imgs/magnifying.svg"
@@ -12,6 +13,8 @@ function Navbar() {
     const [ismenu_expand, setismenu_expand] = useState(false)
     const [isshopcar, setisshopcar] = useState(false)
 
+    const navigate = useNavigate();
+
     const handleMenuExpand = () => {
         setismenu_expand(!ismenu_expand)
     }
@@ -24,7 +27,7 @@ function Navbar() {
         <section className="navbar">
             <header className="mainnav-wrapper">
                 <div className="mainnav-logo-block">
-                    <button>
+                    <button onClick={() => navigate("/")}>
                         <img src={logo} alt="logo" />
                     </button>
                     <span>海軍樂購生活館Love Go</span>
