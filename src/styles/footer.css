@@ -11,6 +11,7 @@
     min-height: 325px;
     
     background: #0B346E;
+    overflow: hidden;
 }
 
 .footer-menu {

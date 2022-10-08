@@ -5,6 +5,7 @@ import CardList from '../components/Card/cardList';
 import ListCard from '../components/Listcard/ListCard';
 import Footer from '../components/Footer/Footer';
 import Popular from '../components/Popular/Popular';
+import Slick from '../components/Popular/slick';
 
 function Mainpage() {
   return (
@@ -24,6 +25,7 @@ function Mainpage() {
         </div>
         <div className="round-section">
           <Popular />
+          <Slick/>
         </div>
         <Footer />
       </section>
