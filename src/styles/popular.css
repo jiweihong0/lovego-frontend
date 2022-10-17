@@ -1,4 +1,4 @@
-.popular-frame{
+.popular-frame {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,7 +7,7 @@
 }
 
 
-.popular-text{
+.popular-text {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -18,33 +18,52 @@
     color: #000000;
 }
 
-div.popular-list{
+span.popular-dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+span.popular-dot.selected {
+    background-color: rgb(112, 111, 111);
+}
+
+div.popular-list {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-ul.popular-list{
-    overflow: hidden;
+ul.popular-list {
+    overflow: auto;
     display: flex;
     align-items: center;
-    width: 100%;
+    scroll-behavior: smooth;
+
+    /* 讓滑軌不顯示在所有瀏覽器 */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
 }
-.popular-item{
-    display: flex;  
+
+ul.popular-list::-webkit-scrollbar {
+    /* 讓滑軌不顯示在所有瀏覽器 */ /* Safari and Chrome */
+    display: none; 
+}
+
+.popular-item {
+    display: flex;
+    margin: 0 0.5vw;
     width: 20%;
-    transition: 2s;
+    box-sizing: border-box;
 }
 
-.popular-prev{
-    margin-right: 30px;
+.popular-arrow {
+    z-index: 2;
 }
 
-.popular-next{
-    margin-left: 30px;
-}
-
-.popular-next>img{
+.popular-arrow.right>img {
     transform: rotate(-180deg)
 }
-
