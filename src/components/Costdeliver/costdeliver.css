@@ -9,20 +9,25 @@
     font-size:20px;
 }
 .costdeliver-frame {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
     display:flex;
     min-width:500px;
-    width:100%;
+    width:90%;
     justify-content:space-around;
+    align-items: center;
     gap:10px;
-    padding: 20px;
+    flex-wrap: wrap;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .costdeliver-leftframe {
+    flex: 2 1 500px;
     display:flex;
     flex-direction:column;
-    justify-content: space-between;
-    min-width:200px;
-    width: 50%;
-    height:350px;
     background: #FFFFFF;
 }
 .costdeliver-leftframe p{
@@ -30,10 +35,10 @@
     font-size: 20px;
 }
 .costdeliver-rightframe{
+    flex: 1 1 300px;
     display:flex;
     justify-content:space-between;
     flex-direction:column;
-    width: 30%;
     background: #FFFFFF;
 }
 .costdeliver-rightframe p{

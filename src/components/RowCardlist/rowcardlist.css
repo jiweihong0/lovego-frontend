@@ -1,9 +1,12 @@
 .rowcardlist-frame {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
     background-color: #FFFFFF;
-    min-width: 300px;
-    width: 100%;
+    min-width: 950px;
+    width: 90%;
     border-radius: 15px;
-    overflow: hidden;
+    margin-top: 20px;
 }
 .rowcardlist-titlelist{
     display: flex;
@@ -15,4 +18,8 @@
     font-size:30px;
     font-family: 'Open Sans';
     color:white;
+}
+
+.rowcardlist-item > li.popout-shopcar-item:last-child{
+    border-bottom: 0;
 }

@@ -6,19 +6,18 @@ import React, { useState } from 'react';
 
 
 
-function Checkoutpage(){
-    const [cash,setcash] = useState(100);
-    const setmoney=(value)=>{
+function Checkoutpage() {
+    const [cash, setcash] = useState(100);
+    const setmoney = (value) => {
         setcash(value)
     }
-    return (  
+
+    return (
         <>
-        <Navbar />
-            <section className="template">
-                <RowCardlist setmoney={setmoney}/>        
-                <Costdeliver cash={cash}/>        
-                <Footer />
-            </section>
+            <Navbar />
+            <RowCardlist setmoney={setmoney} />
+            <Costdeliver cash={cash} />
+            <Footer />
         </>
     );
 }
