@@ -4,6 +4,7 @@ import Popular from '../components/Popular/Popular';
 import Content from '../components/Content/Content';
 import Detail from "../components/Content/Detail";
 
+
 function Productpage() {
     return (
         <>

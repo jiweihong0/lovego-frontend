@@ -76,7 +76,7 @@ function Navbar() {
                                         </li>
                                     </ul>
                                     <div className="popout-shopcar-checkcar">
-                                        <button className="btn-right-section">查看我的購物車</button>
+                                        <button className="btn-right-section" onClick={() => {navigate("/Checkoutpage")}}>查看我的購物車</button>
                                     </div>
                                 </div>
                             }
