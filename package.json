@@ -1,6 +1,6 @@
 {
   "name": "lovego-frontend",
-  "homepage": "https://black-island-02719cf00.2.azurestaticapps.net/",
+  "homepage": "http://lovego.com.tw/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
