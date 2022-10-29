@@ -1,6 +1,6 @@
 {
   "name": "lovego-frontend",
-  "homepage": "http://lovego.com.tw/",
+  "homepage": "https://black-island-02719cf00.2.azurestaticapps.net",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build":"CI= react-scripts build",
+    "build":"CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
