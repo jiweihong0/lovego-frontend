@@ -98,7 +98,7 @@ function Navbar() {
             </header>
             <header className="secnav-wrapper">
                 <div className="secnav-block">
-                    <button aria-selected="true">
+                    <button >
                         <span>全部商品</span>
                     </button>
                     <button>
