@@ -8,7 +8,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router basename='/lovego-frontend'>
+    <Router basename='/lovego_frontend'>
       <App />
     </Router>
   </React.StrictMode>
