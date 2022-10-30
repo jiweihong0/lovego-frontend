@@ -1,7 +1,7 @@
 {
   "name": "lovego-frontend",
   "homepage":".",
-  "proxy": "https://polite-water-026c3a800.2.azurestaticapps.net",
+  "proxy": "http://localhost:3000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
