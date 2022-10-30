@@ -1,5 +1,3 @@
-
-import img_prod from "../../imgs/product.png";
 import Carousel from "../Carousel/Carousel";
 function Content() {
     return (

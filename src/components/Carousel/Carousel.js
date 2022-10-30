@@ -18,13 +18,13 @@ function Carousel() {
                 <button className="carousel-btn next" onClick={handleSwtichCarousel}>&#187;</button>
                 <ul>
                     <li className="slide" data-active>
-                        <img src="https://picsum.photos/seed/picsum/1150/300" alt="Image alt here" />
+                        <img src="https://picsum.photos/seed/picsum/1150/300" alt="phere" />
                     </li>
                     <li className="slide">
-                        <img src="https://picsum.photos/seed/hi/1150/300" alt="Image alt here" />
+                        <img src="https://picsum.photos/seed/hi/1150/300" alt="phere" />
                     </li>
                     <li className="slide">
-                        <img src="https://picsum.photos/seed/bye/1150/300" alt="Image alt here" />
+                        <img src="https://picsum.photos/seed/bye/1150/300" alt="phere" />
                     </li>
                 </ul>
             </div>

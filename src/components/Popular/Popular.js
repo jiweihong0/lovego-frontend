@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import {  useEffect, useRef } from 'react';
 import lefticon from '../../imgs/lefticon.svg'
 import Card from '../Card/card';
 
