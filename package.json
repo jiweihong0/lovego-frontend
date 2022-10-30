@@ -1,7 +1,6 @@
 {
   "name": "lovego-frontend",
   "homepage":"/",
-  "proxy":"https://polite-water-026c3a800.2.azurestaticapps.net",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "master -d build",
     "start": "react-scripts start",
-    "build":"CI=false react-scripts build",
+    "build":"react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
