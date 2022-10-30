@@ -1,6 +1,6 @@
 {
   "name": "lovego-frontend",
-  "homepage":"https://polite-water-026c3a800.2.azurestaticapps.net",
+  "homepage":"./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
