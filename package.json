@@ -1,7 +1,6 @@
 {
   "name": "lovego-frontend",
-  "homepage": "lovego_frontend",
-  "proxy":"https://victorious-wave-0cf77f200.2.azurestaticapps.net",
+  "homepage": "/lovego_frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
